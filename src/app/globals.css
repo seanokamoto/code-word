@@ -19,3 +19,84 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.jersey-15-regular {
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #439737aa;
+}
+
+.title {
+  font-size: 32px;
+  padding: 0px 2px;
+}
+
+.names {
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #333632;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 30px;
+}
+
+.glow {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 0px #439737aa, 0 0 2px #439737aa;
+  }
+
+  from {
+    text-shadow: 0 0 0px #439737aa, 0 0 3px #439737aa;
+  }
+}
+
+.bg-transparent {
+  background-color: Transparent;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.start-button {
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 0px 2px;
+  text-align: left;
+  width: 180px;
+}
+
+.start-button:hover {
+  background-color: #439737aa;
+  color: #1a1a1a;
+  border-color: #439737aa;
+  box-shadow: 0 0 10px #439737aa;
+}
+
+body {
+  background: url(assets/codeword.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.computer-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -60%) translate(-20%, -40%);
+}
