@@ -1,75 +1,64 @@
 {
-  "words": {
-    // code would look for this id string based on the day it thinks it is, we can manually set that to what we want the day to be
-    "1182025": {
-      "word": "cloying",
-      // lets say we get the definition from a free dictionary api, if we even need it
-      "questions": [
-        {
-          "question": "...",
-          "answer": "..."
+    "words": {
+        // code would look for this id string based on the day it thinks it is, we can manually set that to what we want the day to be
+        "1182025": {
+            "word": "cloying",
+            // lets say we get the definition from a free dictionary api, if we even need it
+            "questions": [
+                {
+                    "question": "A detective investigated the Three Bear&#39;s house and found their cake to be cloying. How sweet was it?",
+                    "answer": "Very sweet"
+                },
+                {
+                    "question": "An reed diffuser releases essential oil aroma through a reed, whereas an ultrasonic diffuser mixes essential oils with water to better disperse aroma. Which option is potentially more cloying?",
+                    "answer": "Ultrasonic"
+                },
+                {
+                    "question": "&#9834;Who doesn&#39;t love a sugary, sweet drink that tastes like dessert?&#9834;",
+                    "answer": "..."
+                },
+                {
+                    "question": "cloying:stoic :: hubris: ___",
+                    "answer": "timidity"
+                },
+                {
+                    "question": "...",
+                    "answer": "..."
+                },
+                {
+                    "question": "...",
+                    "answer": "..."
+                }
+            ]
         },
-
-        {
-          "question": "...",
-          "answer": "..."
-        },
-
-        {
-          "question": "...",
-          "answer": "..."
-        },
-
-        {
-          "question": "...",
-          "answer": "..."
-        },
-        
-        {
-          "question": "...",
-          "answer": "..."
-        },
-
-        {
-          "question": "...",
-          "answer": "..."
+        "1192025": {
+            "word": "...",
+            "questions": [
+                {
+                    "question": "...",
+                    "answer": "..."
+                },
+                {
+                    "question": "...",
+                    "answer": "..."
+                },
+                {
+                    "question": "...",
+                    "answer": "..."
+                },
+                {
+                    "question": "...",
+                    "answer": "..."
+                },
+                {
+                    "question": "...",
+                    "answer": "..."
+                },
+                {
+                    "question": "...",
+                    "answer": "..."
+                }
+            ]
         }
-      ]
-    },
-
-    "1192025": {
-      "word": "...",
-      "questions": [
-        {
-          "question": "...",
-          "answer": "..."
-        },
-
-        {
-          "question": "...",
-          "answer": "..."
-        },
-
-        {
-          "question": "...",
-          "answer": "..."
-        },
-
-        {
-          "question": "...",
-          "answer": "..."
-        },
-        
-        {
-          "question": "...",
-          "answer": "..."
-        },
-
-        {
-          "question": "...",
-          "answer": "..."
-        }
-      ]
     }
-  }
 }
