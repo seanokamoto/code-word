@@ -25,7 +25,18 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
+}
+
+.green {
   color: #439737aa;
+}
+
+.gray {
+  color: #3f423e;
+}
+
+.blue {
+  color: #154388;
 }
 
 .title {
@@ -43,6 +54,24 @@ body {
   bottom: 0;
   right: 0;
   padding: 10px 30px;
+}
+
+.bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 10px;
+}
+
+.top-left-text {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  margin: 0;
+  padding: 0px 6px;
+  font-size: 36px;
 }
 
 .glow {
@@ -82,16 +111,7 @@ body {
 .start-button:hover {
   background-color: #439737aa;
   color: #1a1a1a;
-  border-color: #439737aa;
   box-shadow: 0 0 10px #439737aa;
-}
-
-body {
-  background: url(assets/codeword.png);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  margin: 0;
 }
 
 .computer-container {
@@ -99,4 +119,167 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-30%, -60%) translate(-20%, -40%);
+}
+
+.tv-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-33%, -19%) translate(-33%, -19%);
+}
+
+.home-page {
+  background: url(/assets/codeword.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-page {
+  background: url(/assets/game.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.game-page-buttons {
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 0px 2px;
+  text-align: left;
+  width: 180px;
+}
+
+.tv-button {
+  position: absolute;
+  width: 220px;
+  height: 120px;
+  top: 45%;
+  left: 18%;
+  transition: all 0.3s ease;
+}
+
+.radio-button {
+  position: absolute;
+  width: 110px;
+  height: 60px;
+  top: 36%;
+  left: 56%;
+  transition: all 0.3s ease;
+}
+
+.box-button {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 70%;
+  left: 35%;
+  transition: all 0.3s ease;
+}
+
+.painting-button {
+  position: absolute;
+  width: 350px;
+  height: 260px;
+  top: 6%;
+  left: 32%;
+  transition: all 0.3s ease;
+}
+
+.drawer-button {
+  position: absolute;
+  width: 170px;
+  height: 130px;
+  top: 70%;
+  left: 53%;
+  transition: all 0.3s ease;
+}
+
+.tv {
+  background: url(/assets/tv.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.radio {
+  background: url(/assets/radio.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  background: url(/assets/box.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.painting {
+  background: url(/assets/painting.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.drawer {
+  background: url(/assets/drawer.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.tv-page {
+  background: url(/assets/tv-page.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.radio-page {
+  background: url(/assets/radio-page.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box-page {
+  background: url(/assets/box-page.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.painting-page {
+  background: url(/assets/painting-page.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.drawer-page {
+  background: url(/assets/drawer-page.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
 }
