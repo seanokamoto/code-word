@@ -39,6 +39,10 @@ body {
   color: #154388;
 }
 
+.red {
+  color: #490707;
+}
+
 .title {
   font-size: 32px;
   padding: 0px 2px;
@@ -126,6 +130,18 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-33%, -19%) translate(-33%, -19%);
+}
+
+.radio-container {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
+
+.drawer-container {
+  position: absolute;
+  top: 45%;
+  left: 38%;
 }
 
 .home-page {
