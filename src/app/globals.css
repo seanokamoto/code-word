@@ -43,6 +43,14 @@ body {
   color: #490707;
 }
 
+.purple {
+  color: #44195e;
+}
+
+.yellow {
+  color: #635c1e;
+}
+
 .title {
   font-size: 32px;
   padding: 0px 2px;
@@ -73,6 +81,15 @@ body {
   position: fixed;
   top: 15px;
   left: 15px;
+  margin: 0;
+  padding: 0px 6px;
+  font-size: 36px;
+}
+
+.bottom-right-text {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
   margin: 0;
   padding: 0px 6px;
   font-size: 36px;
@@ -125,6 +142,27 @@ body {
   transform: translate(-30%, -60%) translate(-20%, -40%);
 }
 
+.code-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -60%) translate(-20%, -40%);
+}
+
+.arrow-button {
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 4px 4px;
+  text-align: center;
+}
+
+.arrow-button:hover {
+  background-color: #439737aa;
+  color: #1a1a1a;
+  box-shadow: 0 0 10px #439737aa;
+}
+
 .tv-container {
   position: absolute;
   top: 50%;
@@ -133,6 +171,12 @@ body {
 }
 
 .radio-container {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
+
+.painting-container {
   position: absolute;
   top: 40%;
   left: 28%;
@@ -154,6 +198,14 @@ body {
 
 .game-page {
   background: url(/assets/game.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.code-page {
+  background: url(/assets/code.png);
   background-size: cover;
   background-position: center;
   height: 100vh;

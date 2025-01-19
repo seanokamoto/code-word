@@ -10,6 +10,9 @@ export default function Box() {
             <div className="box-page">
 
             </div>
+            <h1 className="jersey-15-regular bottom-text gray">
+                Hm... it doesn't look like anything's here.
+            </h1>
             <Link href="/game">
                 <button
                     id="backButton"

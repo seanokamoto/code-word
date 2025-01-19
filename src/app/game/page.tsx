@@ -148,6 +148,15 @@ export default function Game() {
 
                 </Typewriter>
             </h1>
+
+            <Link href="/game/code">
+                <button
+                    id="codeButton"
+                    className="jersey-15-regular bottom-right-text gray">
+                    &gt; Solve Code
+                </button>
+            </Link>
+
             <Link href="/">
                 <button
                     id="menuButton"
